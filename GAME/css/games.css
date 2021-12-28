@@ -1,0 +1,44 @@
+
+
+
+#section4
+{
+    background-image: url("../img/gamebg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+#section4 h2
+{
+    font-size: 60px;
+    color:white;
+    padding-top:200px;
+}
+#section4 p
+{
+    font-size: 20px;
+    letter-spacing: 1px;;
+}
+#section7
+{
+    background-image: none;
+}
+.section7box{
+position: relative;
+}
+
+.circle1{position: absolute;
+    top:-30px;
+    left:30px;
+    padding:20px;
+   
+    border-radius: 50%;
+  
+    display: inline-block;
+  
+    color:white;
+    font-size: 18px;
+    font-weight: 600;
+   
+
+}

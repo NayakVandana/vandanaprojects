@@ -1,0 +1,589 @@
+*
+{
+    padding:0px;
+    margin:0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+
+
+/* nav style start */
+nav
+{
+    height: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0px 50px;
+    position: relative;
+    border-bottom : 2px solid #FFB320;
+}
+
+nav ul
+{
+    margin-bottom:0;
+}
+nav ul li
+{
+    display: inline-block;
+    margin:0px 20px;
+}
+
+nav ul li a
+{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+nav ul li a:hover
+{
+    color: #FFB320;
+    
+}
+.checkbtn
+{
+    color:white;
+    font-size: 25px;
+    position: absolute;
+    right:20px;
+    display: none;
+}
+#check
+{
+    display: none;   
+}
+/* nav style end */
+
+.button
+{
+    background-color: #FFB320;
+    padding:10px 20px;
+    border-radius: 25px;
+   color:black;
+
+   text-decoration: none;
+   font-weight: 600;
+   display: inline-block;
+    
+}
+#section2
+{
+    background-image: url("../img/slider-1.jpg");
+    height: calc(100vh - 80px);
+}
+.button:hover
+{
+    color:white;
+}
+#section2 h2
+{
+    font-size: 60px;
+    color:white;
+    padding-top:250px;
+}
+.colyellow
+{
+    color: #FFB320;
+}
+#section2 p
+{
+    color:white;
+    font-size: 18px;
+    margin:30px 0px;
+}
+#section3 .col-lg-4
+{
+    background-color: #FFB320;
+    color:white;
+    text-align: right;
+    height: 60px;
+    padding-top:15px;
+}
+#section3 .col-lg-8
+{
+    background-color: black;
+    color:white;
+}
+#section3 marquee
+{
+    padding-top:15px;
+}
+#section3 marquee span
+{
+    padding:2px 20px;
+    margin:0px 20px;
+}
+
+#section4
+{
+    padding:80px 0px;;
+}
+#section4 .section4span{
+    color:white;
+    font-size: 15px;
+    font-weight: 400;
+    padding:10px 10px;
+
+}
+
+.box
+{
+    
+    
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+#section4 .innerContent
+{
+    position: absolute;
+    bottom:20px;
+}
+#section4 .content
+{
+    background-color: rgba(0, 0, 0, 0.486);
+    height: 450px;
+    padding:25px;
+}
+#section4 h3,#section4 p
+{
+color: white;
+}
+#section4 .col-lg-3
+{
+    padding:0px;
+}
+
+
+#section5
+{
+    padding:100px 0px;
+    background-image: url("../img/section5bg.png");
+    background-color: #EEF2F6;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#section5 .box
+{
+    background-color: white;
+    border:1px solid rgb(219, 219, 219);
+ margin: 10px 6px;
+}
+#section5 .box h3
+{
+   
+    padding:15px 20px;
+    font-size: 20px;
+    color: black;
+}
+#section5 .box p
+{
+    padding:10px 20px;
+    font-size: 14px;
+    color: gray;
+}
+#section5 h1
+{
+    padding-bottom:60px;
+}
+#section5 .newsBox
+{   color: #EEF2F6;
+    position: absolute;
+    top:20px;
+    left:20px;
+    margin:0px;
+    padding: 0px 10px;
+}
+
+.section5span p{
+    color: #eef2f636;
+    font-size: 15px;
+    font-weight: 400;
+    padding:5px 10px;
+
+
+}
+
+
+.sectionbuttom span{
+    color: gray;
+    font-size: 15px;
+    font-weight: 400;
+    padding:5px 10px;
+    margin-bottom: 20px;
+    
+}
+
+
+.icon1{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+   
+}
+
+.star
+{
+    background-color: #FFB320;
+    height: 30px;
+    position: absolute;
+    right: 30px;
+    bottom: 0px;
+
+}
+.heart
+{
+    background-color: #FF205F;
+    height: 30px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+#section6
+{
+    padding:100px 0px;
+    background-image: url("../img/pattern.png");
+}
+#section6 .row .section6box
+{
+    background-color: #252525;
+}
+#section6 .row p
+{
+    color: #eef2f636;
+    font-size: 15px;
+    font-weight: 400;
+    padding:5px 14px;
+}
+.lightWhite
+{
+    color:rgba(245, 245, 245, 0.52);
+}
+#section6 .row .col-lg-8 h2{
+    padding:10px 20px;
+
+}
+#section6 .row .col-lg-6
+{
+    margin:10px 0px;
+}
+#section6 .premium
+{
+    padding:10px 20px;
+    background-color:#FFB320 ;
+    display: inline-block;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 16px;
+}
+.section6mdimg{
+    padding: 2px 15px;
+}
+
+#section6 .container p
+{
+    font-weight: 500;
+    font-size: 16px;
+    display: inline-block;
+    padding:10px 22px;
+    color:white;
+    margin-bottom: -22px;
+}
+.circle
+{
+    padding:20px;
+   
+    border-radius: 50%;
+    position: absolute;
+    display: inline-block;
+    top:-30px;
+    left:20px;
+    color:white;
+    font-size: 18px;
+    font-weight: 600;
+   
+}
+.section7box
+{
+    position: relative;
+    text-align: center;
+}
+.section7box h3
+{
+    font-size: 20px;
+    margin:20px 0px;
+}
+#section7 img
+{
+    display: inline-block;
+    z-index: 1;
+}
+#section7 h1
+{
+    margin-bottom: 80px;;
+}
+#section7
+{
+    padding:100px 0px;
+    background-image: url("../img/review-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: right; */
+ }
+
+ 
+ #section8 .innerPost
+ {
+     display: flex;
+     justify-content: space-between;
+     margin-top:20px;
+ }
+ .section8imgradius{
+     border-radius: 50%;
+     width: 63px;
+     height: 63px;
+
+ }
+
+
+#section8 .innerPost div p
+{
+    margin:5px 10px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+#section8 
+{
+    padding:100px 0px;
+    background-image: url("../img/pattern.png");
+}
+
+#section8 .innerPost {
+  padding-bottom: 10px;
+}
+
+#section8 h3
+{
+    color: white;
+}
+#section8 .section8Box
+{
+    background-color: #252525;
+    padding:40px 20px;
+}
+footer .container ul li a{
+
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 500;
+    color: #aeaeae;
+  
+}
+footer{
+    background-color: #252525;
+    height: 80px;
+   
+    
+}
+footer  ul{
+    position: relative;
+   text-align: right;
+    
+}
+
+
+
+    footer  ul li{
+    display: inline-block;
+    margin:30px 20px;
+   
+}
+
+
+
+@media only screen and (max-width:420px)
+{  nav
+    {
+        padding:0px 20px;
+        font-size: 20px;
+        
+    }
+    
+    
+    nav ul
+    {
+        position: absolute;
+        top:80px;
+        width:40%;
+        background-color: #ffb520f5;
+        height:100vh;
+        left:-100%;
+        transition: all 1s;
+      
+      
+
+
+    }
+    nav ul li
+    {
+        display: block;
+        margin:20px 0px;
+      
+       
+    }
+    nav ul li a{
+        
+        color: #203749;
+        font-size: 18px;
+        font-weight: 600;
+     
+       
+      
+    }
+   
+    nav .button
+    {
+        display: none;
+    }
+    nav span
+    {
+        font-size: 25px;
+    }
+    .checkbtn
+    {
+        display: block;
+    }
+    #check:checked ~ul
+    {
+        left:0px;
+    }
+
+    #section2 h2
+    {
+        padding-top:80px;
+        font-size: 40px;
+    }
+    #section2 p br
+    {
+        display: none;
+    }
+    #section3 h2
+    {
+        text-align: center;
+        padding: 10px 0px;
+        margin-right: 0px;
+    }
+     .box
+    {
+        margin:5px;
+    }
+    #section6 .content
+    {
+        padding:10px;
+    }
+    #section3
+    {
+        display: none;
+    }
+    #section7 .section7box
+    {
+        margin: 30px 0px;
+    }
+    #section8 .section8Box
+    {
+        margin:20px 0px;
+    }
+   
+}
+
+
+
+@media only screen and (min-width:421px) and (max-width:969px){
+     
+        nav
+        {
+            padding:0px 20px;
+            font-size: 20px;
+            
+        }
+        
+        
+        nav ul
+        {
+            position: absolute;
+            top:80px;
+            width:40%;
+            background-color: #ffb520f5;
+            height:100vh;
+            left:-100%;
+            transition: all 1s;
+          
+          
+    
+    
+        }
+        nav ul li
+        {
+            display: block;
+            margin:20px 0px;
+           
+        }
+        nav ul li a{
+            color: #203749;
+            font-size: 18px;
+            font-weight: 600;
+        }
+       
+        nav .button
+        {
+            display: none;
+        }
+        nav span
+        {
+            font-size: 25px;
+        }
+        .checkbtn
+        {
+            display: block;
+        }
+        #check:checked ~ul
+        {
+            left:0px;
+        }
+    
+
+    #section2 h2
+    {
+        padding-top:80px;
+        font-size: 50px;
+    }
+    #section3
+    {
+        display: none;
+    }
+    #section5 .box
+    {
+        margin:10px 0px;
+    }
+    #section6 img
+    {
+        height: 250px;
+    }
+    #section6 .content
+    {
+        padding:10px;
+    }
+    #section8img
+    {
+        display: none;
+    }
+}
