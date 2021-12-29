@@ -1,0 +1,19 @@
+#sectionforum1
+{
+    background-image: url("../img/forumbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+
+#sectionforum1 h2
+{
+    font-size: 60px;
+    color:white;
+    padding-top:200px;
+}
+#sectionforum1 p
+{
+    font-size: 20px;
+    letter-spacing: 1px;;
+}

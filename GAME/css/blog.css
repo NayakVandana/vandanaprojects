@@ -24,5 +24,32 @@ html
 
 }
 
- 
+#sectin55 span{
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    padding:5px 10px;
+    margin-bottom: 10px;
+    position: relative;
+   top: 50px;
+   left: 50px;
+
+}
+.searchbox{
+    border: 2px solid gray;
+   position: relative;
+
+}
+.searchbox input{
+    border: none;
+}
+
+.searchbox  button{
+    border: none;
+  
+
+}
+.col-md-6 .row{
+    padding: 20px 10px;
+}
 
