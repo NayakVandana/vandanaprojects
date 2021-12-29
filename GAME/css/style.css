@@ -8,7 +8,10 @@ html
 {
     scroll-behavior: smooth;
 }
-
+.rating{
+    position: relative;
+    bottom: 15px;
+}
 
 /* nav style start */
 nav
@@ -336,47 +339,40 @@ color: white;
     background-size: cover;
     /* background-position: right; */
  }
-
- 
- #section8 .innerPost
- {
-     display: flex;
-     justify-content: space-between;
-     margin-top:20px;
- }
- .section8imgradius{
-     border-radius: 50%;
-     width: 63px;
-     height: 63px;
-
- }
-
-
-#section8 .innerPost div p
+#section8 .innerPost
 {
-    margin:5px 10px;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
+    display: flex;
+    justify-content: space-between;
+    margin-top:20px;
+}
+#section8 .innerPost div
+{
+   margin:0px 5px;
+}
+#section8 .innerPost div p
+{    font-size: 12px;
+   margin:5px 0px;
 }
 #section8 
 {
-    padding:100px 0px;
-    background-image: url("../img/pattern.png");
+   padding:100px 0px;
+   background-image: url("../img/pattern.png");
 }
-
-#section8 .innerPost {
-  padding-bottom: 10px;
-}
-
 #section8 h3
 {
-    color: white;
+   color: white;
 }
 #section8 .section8Box
 {
-    background-color: #252525;
-    padding:40px 20px;
+   background-color: #252525;
+   padding:40px 20px;
+}
+
+.imgradius{
+    width: 63px;
+    height: 63px;
+    border-radius: 50%;
+   
 }
 footer .container ul li a{
 
