@@ -369,8 +369,8 @@ color: white;
 }
 
 .imgradius{
-    width: 63px;
-    height: 63px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
    
 }
@@ -582,4 +582,19 @@ footer  ul{
     {
         display: none;
     }
+    
+       
+        
+   
 }
+    @media only screen and (min-width:421px) and (max-width:1200px)
+    {
+        
+        .imgradius{
+        width: 63px;
+        height: 83px;
+        border-radius: 50%;}
+       
+   
+        }
+   
