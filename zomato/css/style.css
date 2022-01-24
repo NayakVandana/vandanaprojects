@@ -118,13 +118,8 @@ nav ul li a
 optgroup{
     font-size: 18px;
 }
-.category
-{
-    display: flex;
-  
-    flex-wrap: wrap ;
-    justify-content: space-between;
-} #section3 .box{ 
+
+ #section3 .box{ 
     margin:10px 0px;
 } 
 
