@@ -18,28 +18,28 @@ function makeSound(keypress){
         s1.play();
         break;
 
-        case "s" : let s1 = new Audio("sounds/1.mp3");
-        s1.play();
+        case "s" : let s2 = new Audio("sounds/2.mp3");
+        s2.play();
         break;
 
-        case "w" : let s1 = new Audio("sounds/1.mp3");
-        s1.play();
+        case "w" : let s3 = new Audio("sounds/3.mp3");
+        s3.play();
         break;
 
-        case "d" : let s1 = new Audio("sounds/1.mp3");
-        s1.play();
+        case "d" : let s4 = new Audio("sounds/4.mp3");
+        s4.play();
         break;
 
-        case "j" : let s1 = new Audio("sounds/1.mp3");
-        s1.play();
+        case "j" : let s5 = new Audio("sounds/5.mp3");
+        s5.play();
         break;
 
-        case "k" : let s1 = new Audio("sounds/1.mp3");
-        s1.play();
+        case "k" : let s6 = new Audio("sounds/6.mp3");
+        s6.play();
         break;
 
-        case "l" : let s1 = new Audio("sounds/1.mp3");
-        s1.play();
+        case "l" : let s7 = new Audio("sounds/7.mp3");
+        s7.play();
         break;
     }
    
